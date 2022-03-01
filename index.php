@@ -75,7 +75,7 @@ if ($_POST['submit'] != "") {
 echo '<div class="card">';
 echo     '<div class="card-head">Download File</div>';
 echo     '<div class="card-body"><center>';
-echo       '<a href="https://server2.safefileku.com/get/';
+echo       '<a href="https://server1.safefileku.com/get/';
 echo ''. $driveID . '">';
 echo '<button class="button">Download</button> </a></center>';    
 echo '</div>';
