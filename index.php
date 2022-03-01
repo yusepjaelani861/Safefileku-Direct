@@ -64,7 +64,7 @@ if ($_POST['submit'] != "") {
 <textarea class="form-control" readonly>
 <?php 
     if ($driveID != null) {
-        $link = 'https://server2.safefileku.com/get/' . $driveID . '';
+        $link = 'https://server1.safefileku.com/get/' . $driveID . '';
         echo $link;
     }
     ?>
